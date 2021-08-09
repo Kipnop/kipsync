@@ -20,6 +20,9 @@ def dialog(string):
         elif strlist[1] == 'pho2vis':
             print('\npho2vis - Convert MIDI tracks of IPA phonemes to MIDI tracks of visemes compatible with OnyxToolkit')
         args(strlist[1])
+    elif strlist[0] == 'suc':
+        if strlist[1] == 'pho2vis':
+            print('\nSuccess: Created new midi file \'' + strlist[2] + '_KIPSYNC.mid\'\n')
     elif strlist[0] == 'err':
         if strlist[1] == 'missarg':
             print('\nError:   Missing required argument(s):')
@@ -31,6 +34,8 @@ def dialog(string):
             if strlist[2] == 'midnf':
                 print('\nError:   MIDI file not found')
                 dialog('inf_' + strlist[1])
+            if strlist[2] == 'phonf':
+                print('\nError:   Phoneme \'' + strlist[3] + '\' not found\n')
     sys.exit()
 
 def main():
