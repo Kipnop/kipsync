@@ -5,6 +5,8 @@ There is no build executable, just download the two .py files and .yml file and 
 
 # System Requirements
 - Python (2.x or 3.x, either should work fine)
+- mido (*pip install mido*)
+- yaml (*pip install pyyaml*)
 
 # Commands
 ## pho2vis
