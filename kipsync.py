@@ -40,7 +40,7 @@ def dialog(string):
 
 def main():
     global version
-    version = '0.1.0-a'
+    version = '0.2.0-a'
     cmds = ['help', 'pho2vis']
     try:
         cmd = sys.argv[1]
