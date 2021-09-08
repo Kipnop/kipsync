@@ -22,3 +22,10 @@ The phonemes are only containers for lists of visemes, and the way they blend to
 You might notice that the "K" and "G" sounds lack phonemes: these sounds are created in the throat, and I've chosen to exclude them from the lipsync process: if one of these sounds is enunciated very clearly in your lipsync audio, I recommend faking it using the "neut" phoneme.
 
 Final note: "neut" is for between phonemes, it isn't a non-speaking neutral expression.  For that, either use "none", or create your own.
+
+# Eyebrow/Eye Shortcuts
+The program currently has the following shorthands for eyes and eyebrows:
+- brows_inner X (-255 thru 255)
+- brows_outer X (-255 thru 255)
+- lids X (0 thru 255)
+- squint X (0 thru 255)
